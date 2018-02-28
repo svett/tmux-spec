@@ -26,7 +26,7 @@ print_status() {
     fi
   fi
 
-  printf "Spec: %s %s" "${status_color}" "${status_message}"
+  printf "Spec: %s %s " "${status_color}" "${status_message}"
 }
 
 main() {
