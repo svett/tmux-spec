@@ -7,7 +7,7 @@ SPEC_STATUS_OUTPUT="#($CURRENT_DIR/script/spec-status.sh)"
 SPEC_STATUS_INTERPOLATION_STRING="\\#{spec_status}"
 
 # shellcheck disable=1090
-source "$CURRENT_DIR/scripts/shared.sh"
+source "$CURRENT_DIR/script/shared.sh"
 
 do_interpolation() {
   local string="$1"
